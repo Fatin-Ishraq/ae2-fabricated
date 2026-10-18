@@ -1,0 +1,15 @@
+{
+  "type": "ae2:matter_cannon",
+  "ammo": {
+    "tag": "c:nuggets/sodium"
+  },
+  "weight": 22.9897,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:nuggets/sodium"
+      ]
+    }
+  ]
+}

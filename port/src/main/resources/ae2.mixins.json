@@ -1,0 +1,41 @@
+{
+  "required": true,
+  "minVersion": "0.8.3",
+  "package": "appeng.mixins",
+  "compatibilityLevel": "JAVA_11",
+  "plugin": "appeng.mixins.ConfigPlugin",
+  "mixins": [
+    "chunkloading.ChunkMapMixin",
+    "chunkloading.MinecraftServerMixin",
+    "chunkloading.ServerLevelMixin",
+    "spatial.MinecraftServerMixin",
+    "AnvilMenuMixin",
+    "EnchantmentHelperMixin",
+    "ItemEntityMixin",
+    "tests.StructureUtilsMixin",
+    "tests.TestCommandMixin",
+    "StructureTemplateMixin",
+    "BreakSpeedMixin",
+    "DynamicLadderMixin",
+    "OnNeighborUpdateMixin",
+    "FireIgnitionMixin"
+  ],
+  "client": [
+    "AbstractContainerScreenMixin",
+    "MouseWheelMixin",
+    "BlockParticleEffectsMixin",
+    "GuiGraphicsMixin",
+    "WrappedGenericStackTooltipModIdMixin",
+    "PickColorMixin",
+    "TextureAtlasMixin",
+    "PonderWorldMixin",
+    "ModelBakeryMixin",
+    "VariantDeserializerMixin",
+    "unlitquad.BlockElementFaceDeserializerMixin",
+    "unlitquad.FaceBakeryMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

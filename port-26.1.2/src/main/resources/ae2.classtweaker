@@ -1,0 +1,76 @@
+classTweaker	v1	official
+# Converted from upstream's META-INF/accesstransformer.cfg by tools/at2aw.py
+accessible field net/minecraft/client/gui/screens/inventory/AbstractContainerScreen imageWidth I
+mutable field net/minecraft/client/gui/screens/inventory/AbstractContainerScreen imageWidth I
+accessible field net/minecraft/client/gui/screens/inventory/AbstractContainerScreen imageHeight I
+mutable field net/minecraft/client/gui/screens/inventory/AbstractContainerScreen imageHeight I
+accessible method net/minecraft/client/gui/screens/inventory/AbstractContainerScreen extractSlot (Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/world/inventory/Slot;II)V
+accessible method net/minecraft/client/gui/components/EditBox getMaxLength ()I
+accessible method net/minecraft/client/gui/components/EditBox isEditable ()Z
+accessible method net/minecraft/client/gui/screens/inventory/AbstractContainerScreen isHovering (Lnet/minecraft/world/inventory/Slot;DD)Z
+accessible method net/minecraft/client/gui/screens/inventory/AbstractContainerScreen getHoveredSlot (DD)Lnet/minecraft/world/inventory/Slot;
+accessible method net/minecraft/data/worldgen/placement/OrePlacements commonOrePlacement (ILnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Ljava/util/List;
+accessible field net/minecraft/gametest/framework/GameTestHelper testInfo Lnet/minecraft/gametest/framework/GameTestInfo;
+accessible field net/minecraft/client/multiplayer/MultiPlayerGameMode destroyDelay I
+accessible field net/minecraft/world/inventory/Slot x I
+mutable field net/minecraft/world/inventory/Slot x I
+accessible field net/minecraft/world/inventory/Slot y I
+mutable field net/minecraft/world/inventory/Slot y I
+accessible method net/minecraft/world/entity/item/ItemEntity setUnderwaterMovement ()V
+accessible field net/minecraft/world/inventory/AbstractContainerMenu stateId I
+accessible method net/minecraft/client/gui/screens/Screen setInitialFocus (Lnet/minecraft/client/gui/components/events/GuiEventListener;)V
+accessible method net/minecraft/world/damagesource/DamageSources source (Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;
+accessible method net/minecraft/world/damagesource/DamageSources source (Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/damagesource/DamageSource;
+accessible method net/minecraft/world/damagesource/DamageSources source (Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;
+accessible method net/minecraft/world/level/block/Blocks always (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z
+accessible method net/minecraft/world/level/block/Blocks never (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z
+accessible method net/minecraft/client/gui/GuiGraphicsExtractor item (Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;III)V
+accessible method net/minecraft/client/renderer/texture/TextureAtlas getWidth ()I
+accessible method net/minecraft/client/renderer/texture/TextureAtlas getHeight ()I
+accessible field net/minecraft/server/level/ServerLevel entityManager Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;
+accessible field net/minecraft/world/level/entity/PersistentEntitySectionManager permanentStorage Lnet/minecraft/world/level/entity/EntityPersistentStorage;
+accessible field net/minecraft/world/level/entity/PersistentEntitySectionManager chunkVisibility Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+accessible method net/minecraft/world/level/chunk/storage/SectionStorage getOrLoad (J)Ljava/util/Optional;
+accessible method net/minecraft/core/cauldron/CauldronInteractions dyedItemIteration (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult;
+accessible method net/minecraft/world/item/crafting/SingleItemRecipe result ()Lnet/minecraft/world/item/ItemStackTemplate;
+accessible field net/minecraft/client/renderer/texture/TextureAtlasSprite padding I
+
+# FABRIC: NeoForge extension methods that upstream calls on vanilla classes, see appeng.platform.neoforge.common.extensions
+# (applied at runtime by the mixins in appeng.mixins.platform)
+inject-interface	net/minecraft/world/level/Level	appeng/platform/neoforge/common/extensions/ILevelExtension
+inject-interface	net/minecraft/world/item/ItemStack	appeng/platform/neoforge/common/extensions/IItemStackExtension
+inject-interface	net/minecraft/world/inventory/Slot	appeng/platform/neoforge/common/extensions/ISlotExtension
+inject-interface	net/minecraft/world/level/BlockGetter	appeng/platform/neoforge/common/extensions/IBlockGetterExtension
+inject-interface	net/minecraft/world/level/block/entity/BlockEntity	appeng/platform/neoforge/common/extensions/IBlockEntityExtension
+inject-interface	net/minecraft/world/level/material/Fluid	appeng/platform/neoforge/common/extensions/IFluidExtension
+inject-interface	net/minecraft/world/level/block/Block	appeng/platform/neoforge/common/extensions/IBlockExtension
+inject-interface	net/minecraft/world/item/crafting/RecipeManager	appeng/platform/neoforge/common/extensions/IRecipeManagerExtension
+inject-interface	net/minecraft/client/renderer/block/dispatch/BlockStateModel	appeng/platform/neoforge/client/extensions/IBlockStateModelExtension
+inject-interface	net/minecraft/client/resources/model/ModelManager	appeng/platform/neoforge/client/extensions/IModelManagerExtension
+inject-interface	net/minecraft/world/item/crafting/Ingredient	appeng/platform/neoforge/common/extensions/IIngredientExtension
+inject-interface	net/minecraft/world/level/storage/ValueOutput	appeng/platform/neoforge/common/extensions/IValueOutputExtension
+
+# FABRIC: additions for code that NeoForge exposes through patches or that the 1.21.1 port also widened
+accessible field net/minecraft/world/item/ItemStackLinkedSet TYPE_AND_TAG Lit/unimi/dsi/fastutil/Hash$Strategy;
+accessible method net/minecraft/world/entity/player/Player closeContainer ()V
+accessible method net/minecraft/core/particles/SimpleParticleType <init> (Z)V
+accessible method net/minecraft/world/entity/item/PrimedTnt explode ()V
+extendable method net/minecraft/world/entity/item/PrimedTnt explode ()V
+accessible method net/minecraft/core/cauldron/CauldronInteraction$Dispatcher put (Lnet/minecraft/world/item/Item;Lnet/minecraft/core/cauldron/CauldronInteraction;)V
+accessible class net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor
+accessible method net/minecraft/client/gui/screens/MenuScreens register (Lnet/minecraft/world/inventory/MenuType;Lnet/minecraft/client/gui/screens/MenuScreens$ScreenConstructor;)V
+inject-interface	net/minecraft/client/renderer/state/level/LevelRenderState	appeng/platform/neoforge/client/extensions/ILevelRenderStateExtension
+inject-interface	net/minecraft/client/gui/GuiGraphicsExtractor	appeng/platform/neoforge/client/extensions/IGuiGraphicsExtension
+accessible class net/minecraft/client/gui/GuiGraphicsExtractor$ScissorStack
+accessible field net/minecraft/client/gui/screens/Screen renderables Ljava/util/List;
+extendable method net/minecraft/client/gui/screens/inventory/AbstractContainerScreen isHovering (Lnet/minecraft/world/inventory/Slot;DD)Z
+accessible field net/minecraft/client/renderer/RenderPipelines LINES_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
+accessible field net/minecraft/client/renderer/RenderPipelines GUI_TEXTURED_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
+accessible field net/minecraft/world/entity/ai/behavior/GiveGiftToHero GIFTS Ljava/util/Map;
+mutable field net/minecraft/world/entity/ai/behavior/GiveGiftToHero GIFTS Ljava/util/Map;
+accessible field net/minecraft/resources/RegistryLoadTask registry Lnet/minecraft/core/WritableRegistry;
+# FABRIC: used by the unit tests (CubeBuilderTest)
+accessible method net/minecraft/client/resources/model/cuboid/FaceBakery recalculateWinding ([Lorg/joml/Vector3fc;[JLnet/minecraft/core/Direction;)V
+# FABRIC 26.1: public in 26.2, private in 26.1 (NeoForge widens these)
+accessible class net/minecraft/world/level/block/entity/BlockEntityType$BlockEntitySupplier
+accessible method net/minecraft/world/level/block/entity/BlockEntityType <init> (Lnet/minecraft/world/level/block/entity/BlockEntityType$BlockEntitySupplier;Ljava/util/Set;)V

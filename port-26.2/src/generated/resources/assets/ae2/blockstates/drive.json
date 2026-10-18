@@ -1,0 +1,138 @@
+{
+  "variants": {
+    "facing=down,spin=0": {
+      "model": "ae2:drive_base",
+      "x": 90,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=down,spin=1": {
+      "model": "ae2:drive_base",
+      "x": 90,
+      "z": 270,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=down,spin=2": {
+      "model": "ae2:drive_base",
+      "x": 90,
+      "z": 180,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=down,spin=3": {
+      "model": "ae2:drive_base",
+      "x": 90,
+      "z": 90,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=east,spin=0": {
+      "model": "ae2:drive_base",
+      "y": 90,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=east,spin=1": {
+      "model": "ae2:drive_base",
+      "y": 90,
+      "z": 270,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=east,spin=2": {
+      "model": "ae2:drive_base",
+      "y": 90,
+      "z": 180,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=east,spin=3": {
+      "model": "ae2:drive_base",
+      "y": 90,
+      "z": 90,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=north,spin=0": {
+      "model": "ae2:drive_base",
+      "fabric:type": "ae2:drive"
+    },
+    "facing=north,spin=1": {
+      "model": "ae2:drive_base",
+      "z": 270,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=north,spin=2": {
+      "model": "ae2:drive_base",
+      "z": 180,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=north,spin=3": {
+      "model": "ae2:drive_base",
+      "z": 90,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=south,spin=0": {
+      "model": "ae2:drive_base",
+      "y": 180,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=south,spin=1": {
+      "model": "ae2:drive_base",
+      "y": 180,
+      "z": 90,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=south,spin=2": {
+      "model": "ae2:drive_base",
+      "y": 180,
+      "z": 180,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=south,spin=3": {
+      "model": "ae2:drive_base",
+      "y": 180,
+      "z": 270,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=up,spin=0": {
+      "model": "ae2:drive_base",
+      "x": 270,
+      "z": 180,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=up,spin=1": {
+      "model": "ae2:drive_base",
+      "x": 270,
+      "z": 90,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=up,spin=2": {
+      "model": "ae2:drive_base",
+      "x": 270,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=up,spin=3": {
+      "model": "ae2:drive_base",
+      "x": 270,
+      "z": 270,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=west,spin=0": {
+      "model": "ae2:drive_base",
+      "y": 270,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=west,spin=1": {
+      "model": "ae2:drive_base",
+      "y": 270,
+      "z": 270,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=west,spin=2": {
+      "model": "ae2:drive_base",
+      "y": 270,
+      "z": 180,
+      "fabric:type": "ae2:drive"
+    },
+    "facing=west,spin=3": {
+      "model": "ae2:drive_base",
+      "y": 270,
+      "z": 90,
+      "fabric:type": "ae2:drive"
+    }
+  }
+}

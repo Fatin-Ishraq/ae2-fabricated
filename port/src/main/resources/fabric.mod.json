@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "ae2",
+  "version": "${version}",
+  "name": "Applied Energistics 2: Fabricated",
+  "description": "Unofficial Fabric port of Applied Energistics 2 ${upstream_version}. Not made or supported by the AE2 team: please report bugs to the Fabricated issue tracker, not to AE2. A Mod about Matter, Energy and using them to conquer the world.",
+  "authors": [
+    "TeamAppliedEnergistics (original mod)"
+  ],
+  "contributors": [
+    "Fatin-Ishraq (Fabric port)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Fatin-Ishraq/ae2-fabricated",
+    "sources": "https://github.com/Fatin-Ishraq/ae2-fabricated",
+    "issues": "https://github.com/Fatin-Ishraq/ae2-fabricated/issues"
+  },
+  "license": [
+    "LGPL-3.0-only",
+    "MIT",
+    "CC-BY-NC-SA-3.0"
+  ],
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "appeng.core.AppEngServerStartup"
+    ],
+    "client": [
+      "appeng.core.AppEngClientStartup"
+    ],
+    "emi": [
+      "appeng.integration.modules.emi.AppEngEmiPlugin"
+    ],
+    "rei_client": [
+      "appeng.integration.modules.rei.ReiPlugin"
+    ],
+    "jade": [
+      "appeng.integration.modules.jade.JadeModule"
+    ]
+  },
+  "mixins": [
+    "ae2.mixins.json"
+  ],
+  "accessWidener": "ae2.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  },
+  "breaks": {
+    "appliedenergistics2": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": []
+    },
+    "ae2-fabric:unofficial": true,
+    "ae2-fabric:upstream": "https://github.com/AppliedEnergistics/Applied-Energistics-2 (neoforge/v${upstream_version})"
+  }
+}

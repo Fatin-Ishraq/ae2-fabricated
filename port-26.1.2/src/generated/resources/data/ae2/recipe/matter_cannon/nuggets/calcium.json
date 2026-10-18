@@ -1,0 +1,13 @@
+{
+  "type": "ae2:matter_cannon",
+  "ammo": "#c:nuggets/calcium",
+  "weight": 40.078,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:nuggets/calcium"
+      ]
+    }
+  ]
+}

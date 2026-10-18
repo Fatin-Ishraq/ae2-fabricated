@@ -1,0 +1,11 @@
+# Ant-style patterns (relative to src/main/java) excluded from compilation until ported.
+# Keep in sync with NOTES.md "Stubbed / excluded".
+# The One Probe and Curios are NeoForge-only; no Fabric equivalent is integrated (user decision, see NOTES.md)
+appeng/integration/modules/theoneprobe/**
+appeng/integration/modules/curios/**
+# Guidebook (GuideME is NeoForge-only): not included (user decision, see NOTES.md)
+appeng/client/guidebook/**
+appeng/siteexport/**
+# Data generators: upstream generated output is used, converted by tools/convert_resources.py
+appeng/datagen/**
+!appeng/datagen/providers/tags/ConventionTags.java

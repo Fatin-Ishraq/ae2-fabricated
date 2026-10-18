@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "ae2-playtest",
+  "version": "1.0.0",
+  "name": "AE2 Fabric port playtest",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-client-gametest": ["appeng.playtest.Ae2ClientPlaytest"]
+  },
+  "depends": { "ae2": "*" }
+}

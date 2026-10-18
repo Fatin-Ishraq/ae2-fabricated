@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ae2-playtest",
+  "version": "1.0.0",
+  "name": "AE2 Fabric port playtest",
+  "description": "Scripted client playtest of the unofficial AE2 Fabric port. Development only, not shipped.",
+  "license": "LGPL-3.0-only",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "appeng.playtest.Ae2Playtest"
+    ]
+  },
+  "depends": {
+    "ae2": "*"
+  }
+}

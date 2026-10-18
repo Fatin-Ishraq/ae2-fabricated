@@ -1,0 +1,13 @@
+{
+  "type": "ae2:matter_cannon",
+  "ammo": "#c:nuggets/rhodium",
+  "weight": 102.9055,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:nuggets/rhodium"
+      ]
+    }
+  ]
+}

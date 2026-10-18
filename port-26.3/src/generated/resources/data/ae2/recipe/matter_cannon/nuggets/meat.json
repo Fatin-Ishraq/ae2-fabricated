@@ -1,0 +1,13 @@
+{
+  "type": "ae2:matter_cannon",
+  "ammo": "#c:nuggets/meat",
+  "weight": 32.0,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:nuggets/meat"
+      ]
+    }
+  ]
+}

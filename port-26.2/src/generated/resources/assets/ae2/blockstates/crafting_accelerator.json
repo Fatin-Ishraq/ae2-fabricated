@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "formed=false": {
+      "model": "ae2:block/crafting/accelerator"
+    },
+    "formed=true": {
+      "unit_type": "accelerator",
+      "fabric:type": "ae2:crafting_cube"
+    }
+  }
+}

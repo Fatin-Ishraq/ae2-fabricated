@@ -1,0 +1,12 @@
+# Ant-style patterns (relative to src/main/java and src/client/java) excluded from compilation until ported.
+# Keep in sync with NOTES.md "Not included".
+# Curios is NeoForge-only (user decision, see NOTES.md). Upstream itself excludes The One Probe, REI and EMI for 26.x.
+appeng/integration/modules/curios/**
+# Guidebook (GuideME is NeoForge-only): not included (user decision, see NOTES.md)
+appeng/client/guidebook/**
+# Data generators: upstream generated output is used, converted by tools/convert_resources.py
+appeng/datagen/**
+# Spatial storage sky/cloud/weather renderers: Fabric 26.x has no API to register dimension sky renderers; the
+# spatial storage dimension uses vanilla rendering (see NOTES.md)
+appeng/client/renderer/spatialstorage/**
+appeng/client/render/BasicUnbakedModel.java

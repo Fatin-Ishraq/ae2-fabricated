@@ -1,0 +1,15 @@
+{
+  "type": "ae2:matter_cannon",
+  "ammo": {
+    "tag": "c:nuggets/krypton"
+  },
+  "weight": 83.8,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:nuggets/krypton"
+      ]
+    }
+  ]
+}

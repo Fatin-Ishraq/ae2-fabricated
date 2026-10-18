@@ -1,0 +1,272 @@
+{
+  "variants": {
+    "facing=down,powered=false,spin=0": {
+      "model": "ae2:block/spatial_io_port",
+      "x": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=down,powered=false,spin=1": {
+      "model": "ae2:block/spatial_io_port",
+      "x": 90,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=down,powered=false,spin=2": {
+      "model": "ae2:block/spatial_io_port",
+      "x": 90,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=down,powered=false,spin=3": {
+      "model": "ae2:block/spatial_io_port",
+      "x": 90,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=down,powered=true,spin=0": {
+      "model": "ae2:block/spatial_io_port_on",
+      "x": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=down,powered=true,spin=1": {
+      "model": "ae2:block/spatial_io_port_on",
+      "x": 90,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=down,powered=true,spin=2": {
+      "model": "ae2:block/spatial_io_port_on",
+      "x": 90,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=down,powered=true,spin=3": {
+      "model": "ae2:block/spatial_io_port_on",
+      "x": 90,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=east,powered=false,spin=0": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=east,powered=false,spin=1": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 90,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=east,powered=false,spin=2": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 90,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=east,powered=false,spin=3": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 90,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=east,powered=true,spin=0": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=east,powered=true,spin=1": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 90,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=east,powered=true,spin=2": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 90,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=east,powered=true,spin=3": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 90,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=north,powered=false,spin=0": {
+      "model": "ae2:block/spatial_io_port",
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=north,powered=false,spin=1": {
+      "model": "ae2:block/spatial_io_port",
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=north,powered=false,spin=2": {
+      "model": "ae2:block/spatial_io_port",
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=north,powered=false,spin=3": {
+      "model": "ae2:block/spatial_io_port",
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=north,powered=true,spin=0": {
+      "model": "ae2:block/spatial_io_port_on",
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=north,powered=true,spin=1": {
+      "model": "ae2:block/spatial_io_port_on",
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=north,powered=true,spin=2": {
+      "model": "ae2:block/spatial_io_port_on",
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=north,powered=true,spin=3": {
+      "model": "ae2:block/spatial_io_port_on",
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=south,powered=false,spin=0": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=south,powered=false,spin=1": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 180,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=south,powered=false,spin=2": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 180,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=south,powered=false,spin=3": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 180,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=south,powered=true,spin=0": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=south,powered=true,spin=1": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 180,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=south,powered=true,spin=2": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 180,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=south,powered=true,spin=3": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 180,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=up,powered=false,spin=0": {
+      "model": "ae2:block/spatial_io_port",
+      "x": 270,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=up,powered=false,spin=1": {
+      "model": "ae2:block/spatial_io_port",
+      "x": 270,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=up,powered=false,spin=2": {
+      "model": "ae2:block/spatial_io_port",
+      "x": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=up,powered=false,spin=3": {
+      "model": "ae2:block/spatial_io_port",
+      "x": 270,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=up,powered=true,spin=0": {
+      "model": "ae2:block/spatial_io_port_on",
+      "x": 270,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=up,powered=true,spin=1": {
+      "model": "ae2:block/spatial_io_port_on",
+      "x": 270,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=up,powered=true,spin=2": {
+      "model": "ae2:block/spatial_io_port_on",
+      "x": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=up,powered=true,spin=3": {
+      "model": "ae2:block/spatial_io_port_on",
+      "x": 270,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=west,powered=false,spin=0": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=west,powered=false,spin=1": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 270,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=west,powered=false,spin=2": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 270,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=west,powered=false,spin=3": {
+      "model": "ae2:block/spatial_io_port",
+      "y": 270,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=west,powered=true,spin=0": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=west,powered=true,spin=1": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 270,
+      "z": 270,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=west,powered=true,spin=2": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 270,
+      "z": 180,
+      "fabric:type": "ae2:spinnable_variant"
+    },
+    "facing=west,powered=true,spin=3": {
+      "model": "ae2:block/spatial_io_port_on",
+      "y": 270,
+      "z": 90,
+      "fabric:type": "ae2:spinnable_variant"
+    }
+  }
+}

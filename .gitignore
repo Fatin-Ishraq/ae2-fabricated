@@ -1,0 +1,21 @@
+# Upstream reference checkouts (cloned from GitHub, not edited). See NOTES.md for commit hashes.
+/upstream/
+/upstream-fabric-1.20.1/
+/upstream-forge-1.20.1/
+
+# Gradle / IDE output for the ports (port/ = 1.21.1, port-<version>/ = later versions)
+/port*/.gradle/
+/port*/build/
+/port*/run/
+/port*/runs/
+/port*/out/
+/port*/.idea/
+/port*/*.iml
+/port*/.kotlin/
+/port*/bin/
+/ref/
+/tools/scratch/
+/tools/__pycache__/
+/port*/logs/
+/port*/crash-reports/
+/port*/config/

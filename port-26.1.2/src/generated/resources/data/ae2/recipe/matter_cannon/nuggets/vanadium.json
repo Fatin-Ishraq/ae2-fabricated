@@ -1,0 +1,13 @@
+{
+  "type": "ae2:matter_cannon",
+  "ammo": "#c:nuggets/vanadium",
+  "weight": 50.9415,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:tags_populated",
+      "values": [
+        "c:nuggets/vanadium"
+      ]
+    }
+  ]
+}
