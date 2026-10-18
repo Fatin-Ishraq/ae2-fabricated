@@ -61,6 +61,9 @@ public class Ae2ClientPlaytest implements FabricClientGameTest {
 
     @Override
     public void runTest(ClientGameTestContext context) {
+        if ("screenshots".equals(System.getProperty("ae2.playtest.suite"))) {
+            return;
+        }
         try (TestSingleplayerContext singleplayer = context.worldBuilder()
                 .adjustSettings(s -> s.setGameMode(WorldCreationUiState.SelectedGameMode.CREATIVE))
                 .create()) {

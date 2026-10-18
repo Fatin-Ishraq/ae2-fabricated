@@ -52,6 +52,9 @@ loom {
         configureEach {
             ideConfigGenerated = true
             property 'appeng.tests', 'true'
+            // Client game test suite: playtest (default) or screenshots (listing screenshots, see Ae2Screenshots)
+            property 'ae2.playtest.suite', (project.findProperty('playtestSuite') ?: 'playtest').toString()
+            property 'ae2.screenshots.scenes', (project.findProperty('screenshotScenes') ?: '').toString()
         }
         client {
             runDir = 'run'

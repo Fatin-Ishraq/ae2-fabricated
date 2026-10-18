@@ -5,7 +5,7 @@
   "name": "AE2 Fabric port playtest",
   "environment": "client",
   "entrypoints": {
-    "fabric-client-gametest": ["appeng.playtest.Ae2ClientPlaytest"]
+    "fabric-client-gametest": ["appeng.playtest.Ae2ClientPlaytest", "appeng.playtest.Ae2Screenshots"]
   },
   "depends": { "ae2": "*" }
 }
