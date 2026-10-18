@@ -67,6 +67,7 @@ cd port
 
 - `port/`: the 1.21.1 port.
 - `port-26.1.2/`, `port-26.2/`, `port-26.3/`: the Minecraft 26.x ports.
+- `branding/`: the icon and the script that makes it.
 - `tools/`: the scripts used to port and maintain the code (merge helpers, import rewriter, resource converter). Some
   expect an upstream AE2 checkout in `upstream/` (see NOTES.md).
 - `NOTES.md`: the porting log.
@@ -88,4 +89,6 @@ The port keeps AE2's licenses:
   - Credit the authors, non-commercial use only, share under the same license.
   - So releases of this port are never monetized: no paid builds, no paid early access, no monetized downloads.
 - **Text and translations:** CC0.
+- **Icon** (`branding/icon.png`, also the in-game logo): the AE2 logo with a "Fabricated" ribbon, made by
+  `branding/make_icon.py`. It is a derivative of AE2's art, so it is CC BY-NC-SA 3.0 as well.
 - `appeng/thirdparty/fabric` contains Apache-2.0 code from FabricMC, as upstream does.
